@@ -1,9 +1,45 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Trusted Health Info"
+theme = "hugo-steam-theme"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[params]
+  title = "Trusted Health Info"
+  subtitle = "Info about your disease, vetted by doctors"
+  copyright = "Released under the MIT license."
+
+  # You can choose between green, orange, red and blue.
+  themecolor = "green"
+
+  # Link custom assets relative to /static
+  favicon   = "favicon.ico"
+  customCSS = []
+  customJS  = []
+
+  # To provide some metadata for search engines and the about section in the footer
+  # feel free to add a few information about you and your website.
+  name = "Trusted Health Info"
+  #bio = "programmer - blogger - coffee aficionado"
+  description = "Info about your disease, vetted by doctors"
+
+  # Link your social networks (optional)
+  # location = ""
+  # twitter = ""
+  # linkedin = ""
+  # googleplus = ""
+  # facebook = ""
+  # instagram = ""
+  # github = ""
+  # gitlab = ""
+  # bitbucket = ""
+
+  # Customize or translate the strings
+  keepReadingStr = "Keep reading"
+  backtotopStr = "Back to top"
+  shareStr = "Share"
+  pageNotFoundTitle = "404 - Page not found"
